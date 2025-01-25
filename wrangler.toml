@@ -1,4 +1,4 @@
-name = "seedmail"
+name = "igiven-seedmail"
 compatibility_date = "2024-11-10"
 compatibility_flags = [ "nodejs_compat" ]
 
@@ -9,8 +9,8 @@ pages_build_output_dir = "dist"
 [[d1_databases]]
 binding = "DB"
 migrations_dir = "drizzle"
-database_name = "seedmail"
-database_id = "c529e455-d749-458c-9e8b-f0611bec7572"
+database_name = "igivenmail"
+database_id = "36c40381-ca08-49e5-b91d-e01d47cbb381"
 
 # 预览环境配置
 [env.preview]
@@ -23,5 +23,5 @@ vars = {}  # 不要在这里写入实际值 设置在网站上
 [[env.production.d1_databases]]
 binding = "DB"
 migrations_dir = "drizzle"
-database_name = "seedmail"
-database_id = "c529e455-d749-458c-9e8b-f0611bec7572"
+database_name = "igivenmail"
+database_id = "36c40381-ca08-49e5-b91d-e01d47cbb381"

@@ -10,8 +10,8 @@
     "preview:pages": "wrangler pages dev dist ",
     "preview": "vite preview",
     "generate": "drizzle-kit generate",
-    "migrate:local": "wrangler d1 migrations apply seedmail --local",
-    "migrate:remote": "wrangler d1 migrations apply seedmail --remote",
+    "migrate:local": "wrangler d1 migrations apply igivenmail --local",
+    "migrate:remote": "wrangler d1 migrations apply igivenmail --remote",
     "seed": "wrangler dev ./scripts/seed.ts "
   },
   "dependencies": {
